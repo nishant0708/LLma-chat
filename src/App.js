@@ -18,7 +18,7 @@ const App = () => {
       const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": `Bearer ${process.env.REACT_APP_API_KEY}`,
+          "Authorization": `Bearer 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`,
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
